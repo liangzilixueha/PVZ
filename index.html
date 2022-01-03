@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>÷≤ŒÔ¥Û’ΩΩ© ¨</title>
+    <style>
+        .onload {
+            width: 900px;
+            height: 600px;
+            background-image: url(images/Surface.png);
+        }
+        .let-go-box {
+            left:480px;
+            top:70px;
+            width: 331px;
+            height: 145px;
+            position: relative;
+            overflow: hidden;
+        }
+        .let-go {
+            width: 331px;
+            height: 290px;
+            background-image: url(images/SelectorScreenStartAdventur.png);
+            position: relative;
+        }
+        .play-game-box {
+            left: 480px;
+            top: 50px;
+            width: 313px;
+            height: 131px;
+            position: relative;
+            overflow: hidden;
+        }
+        .play-game {
+            width: 313px;
+            height: 290px;
+            background-image: url(images/SelectorScreenSurvival.png);
+            position: relative;
+        }
+        #out{
+            width:60px;
+            height:30px;
+            position:relative;
+            top:240px;
+            left:810px;
+            background-color:red;
+        }
+    </style>
+    <script>
+        function let_go_over(){
+            var let_go = document.getElementById('let-go');
+            let_go.style.top = '-146px';
+        }
+        function let_go_out() {
+            var let_go = document.getElementById('let-go');
+            let_go.style.top = '0px';
+        }
+        function play_game_over() {
+            var play_game = document.getElementById('play-game');
+            play_game.style.top = '-131px';
+        }
+        function play_game_out() {
+            var play_game = document.getElementById('play-game');
+            play_game.style.top = '0px';
+        }
+        function out() {
+            window.close();
+        }
+        function let_go_click() {
+
+        }
+    </script>
+</head>
+<body>
+    <div class="onload">
+        <div class="let-go-box">
+            <a href="first.html">
+                <div class="let-go" id="let-go" onmouseover="let_go_over()" onmouseout="let_go_out()">
+
+                </div>
+            </a>
+        </div>
+        <div class="play-game-box">
+            <div class="play-game" id="play-game" onmouseover="play_game_over()" onmouseout="play_game_out()">
+
+            </div>
+        </div>
+        <div id="out" onclick="out()">
+
+        </div>
+    </div>
+</body>
+</html>

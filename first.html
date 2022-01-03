@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>冒险模式第一关</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <style>
+        #onload {
+            width: 900px;
+            height: 600px;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        #grass {
+            width: 1400px;
+            height: 600px;
+            position: relative;
+            background-image: url(images/interface/background1unsodded.jpg);
+        }
+
+        #zombi {
+            position: relative;
+            left: 1050px;
+            top: 200px;
+        }
+
+        #plant {
+        }
+
+        #start_anime {
+            width: 250px;
+            height: 110px;
+            position: relative;
+            left: 400px;
+        }
+    </style>
+    <script>
+        function look() {
+            $('#grass').animate({
+
+                left: '-500px',
+            })
+            $('#grass').animate({ left: '-500px' }, 1000)
+            $('#grass').animate({ left: '0px' })
+            setTimeout('start_anime()', 3000)
+            //start_anime();
+        }
+        function start_anime() {
+            var start_anime = document.getElementById('start_anime');
+            start_anime.style.backgroundImage = 'url(images/PrepareGrowPlants.gif)';
+            setTimeout()    
+        }
+    </script>
+</head>
+<body onload="setTimeout('look()',1000)">
+    <div id="onload">
+        <div id="grass">
+            <div id="zombi">
+                <img src="images\Zombies\Zombie\Zombie.gif" />
+            </div>
+            <div id="plant_box"></div>
+            <div id="start_anime"></div>
+        </div>
+    </div>
+</body>
+</html>
