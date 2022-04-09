@@ -3,10 +3,10 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"恢复_恢复_植物大战僵尸_atlas_", frames: [[0,0,1400,600],[566,602,412,483],[350,1087,348,218],[0,1072,348,218],[700,1262,348,218],[0,1292,348,218],[980,602,348,218],[980,822,348,218],[980,1042,348,218],[350,1307,348,218],[1400,1702,348,218],[0,1512,348,218],[1050,1262,348,218],[1330,602,348,218],[0,1732,348,218],[700,1482,348,218],[350,1527,348,218],[1680,660,348,218],[1402,220,348,218],[1050,1482,348,218],[1330,1042,348,218],[1330,822,348,218],[1400,1482,348,218],[1400,1262,348,218],[1680,440,348,218],[1680,880,348,218],[700,1702,348,218],[350,1747,348,218],[1050,1702,348,218],[1402,0,348,218],[0,602,564,468]]},
-		{name:"恢复_恢复_植物大战僵尸_atlas_2", frames: [[700,0,348,218],[1050,0,348,218],[0,0,348,218],[1400,0,348,218],[0,220,348,218],[350,220,348,218],[700,220,348,218],[350,0,348,218],[700,440,348,218],[1400,440,348,218],[1050,220,348,218],[1400,220,348,218],[350,660,348,218],[0,440,348,218],[0,660,348,218],[0,880,348,218],[0,1100,348,218],[350,440,348,218],[0,1320,348,218],[0,1540,348,218],[0,1760,348,218],[350,880,348,218],[1050,440,348,218],[350,1100,348,218],[350,1320,348,218],[350,1540,348,218],[1400,660,348,218],[1400,880,348,218],[700,1100,348,218],[700,880,348,218],[1050,880,348,218],[1050,1540,348,218],[700,1760,348,218],[350,1760,348,218],[700,660,348,218],[700,1320,348,218],[1400,1760,348,218],[700,1540,348,218],[1050,660,348,218],[1400,1320,348,218],[1050,1100,348,218],[1400,1100,348,218],[1050,1320,348,218],[1050,1760,348,218],[1400,1540,348,218]]},
-		{name:"恢复_恢复_植物大战僵尸_atlas_3", frames: [[568,1548,216,164],[568,220,216,164],[350,884,216,164],[350,1548,216,164],[350,1880,216,164],[350,1050,216,164],[350,1216,216,164],[700,0,216,164],[568,386,216,164],[350,718,216,164],[568,552,216,164],[568,718,216,164],[350,220,216,164],[350,1714,216,164],[568,1216,216,164],[568,1382,216,164],[568,884,216,164],[350,386,216,164],[350,1382,216,164],[568,1050,216,164],[568,1714,216,164],[568,1880,216,164],[786,166,216,164],[350,552,216,164],[1354,0,216,164],[1004,1162,216,164],[786,830,216,164],[786,1494,216,164],[1136,0,216,164],[786,498,216,164],[918,0,216,164],[1004,830,216,164],[786,332,216,164],[786,1162,216,164],[786,664,216,164],[1004,332,216,164],[786,996,216,164],[1004,498,216,164],[786,1328,216,164],[1004,996,216,164],[1004,664,216,164],[786,1660,216,164],[786,1826,216,164],[1004,166,216,164],[1004,1328,216,164],[1004,1494,216,164],[1004,1660,216,164],[1004,1826,216,164],[1222,166,216,164],[1440,166,216,164],[1658,498,216,164],[1658,664,216,164],[1440,498,216,164],[1440,1826,216,164],[1222,1826,216,164],[1222,1660,216,164],[1222,332,216,164],[1658,332,216,164],[1658,166,216,164],[1222,1162,216,164],[1572,0,216,164],[1440,1162,216,164],[1440,332,216,164],[1658,830,216,164],[1222,1328,216,164],[1222,996,216,164],[1440,664,216,164],[1440,1328,216,164],[1440,830,216,164],[1440,996,216,164],[1222,830,216,164],[1222,1494,216,164],[1440,1494,216,164],[1440,1660,216,164],[1790,0,216,164],[1222,498,216,164],[1658,996,216,164],[1658,1162,216,164],[1658,1328,216,164],[1222,664,216,164],[0,1320,348,218],[0,1540,348,218],[0,880,348,218],[0,0,348,218],[0,220,348,218],[0,440,348,218],[0,660,348,218],[0,1100,348,218],[0,1760,348,218],[350,0,348,218],[1810,1494,150,186],[1876,1106,150,186],[1876,354,150,186],[1876,1294,150,186],[1876,542,150,186],[1810,1682,150,186],[1876,918,150,186],[1876,166,150,186],[1658,1682,150,186],[1876,730,150,186],[1658,1494,150,186]]},
-		{name:"恢复_恢复_植物大战僵尸_atlas_4", frames: [[1008,876,204,117],[1382,876,182,104],[1774,1262,71,57],[1992,1036,56,34],[1314,1012,52,46],[560,986,100,60],[1539,1112,71,71],[781,1098,71,71],[369,1066,71,71],[1185,1073,71,71],[1612,1112,71,71],[854,1098,71,71],[1037,1057,71,71],[296,1066,71,71],[708,1098,71,71],[150,1066,71,71],[442,1066,71,71],[635,1098,71,71],[223,1066,71,71],[1008,995,100,60],[1847,1262,86,36],[152,0,255,108],[409,0,255,108],[666,0,255,108],[824,110,76,34],[1886,876,78,78],[1966,876,78,78],[1566,956,78,78],[1646,956,78,78],[1726,956,78,78],[1382,982,78,78],[1966,956,78,78],[400,986,78,78],[480,986,78,78],[1806,956,78,78],[240,986,78,78],[1886,956,78,78],[1462,982,78,78],[0,986,78,78],[80,986,78,78],[160,986,78,78],[320,986,78,78],[1646,876,78,78],[1931,0,78,78],[1566,876,78,78],[1726,876,78,78],[1806,876,78,78],[672,256,123,34],[1931,80,100,60],[1542,1036,73,74],[1617,1036,73,74],[1767,1036,73,74],[1692,1036,73,74],[962,1057,73,74],[1110,1056,73,74],[560,1048,73,74],[1314,1062,73,74],[1842,1036,73,74],[1917,1036,73,74],[1464,1062,73,74],[1389,1062,73,74],[662,1022,73,74],[737,1022,73,74],[75,1066,73,74],[0,1066,73,74],[812,1022,73,74],[887,1022,73,74],[0,188,100,60],[1214,876,166,134],[1110,995,100,59],[351,1139,65,73],[217,1139,65,73],[1953,1112,65,73],[582,1171,65,73],[1258,1138,65,73],[649,1171,65,73],[1685,1112,65,73],[150,1139,65,73],[783,1171,65,73],[1459,1138,65,73],[515,1124,65,73],[927,1133,65,73],[284,1139,65,73],[67,1142,65,73],[1886,1112,65,73],[1037,1130,65,73],[716,1171,65,73],[418,1139,65,73],[0,1142,65,73],[1171,1146,65,73],[1104,1132,65,73],[1325,1138,65,73],[1752,1112,65,73],[850,1171,65,73],[1526,1185,65,73],[1593,1185,65,73],[1392,1138,65,73],[1660,1187,65,73],[1727,1187,65,73],[1794,1187,65,73],[1819,1112,65,73],[335,1214,65,73],[1861,1187,65,73],[753,1246,65,73],[1928,1187,65,73],[1439,1213,65,73],[485,1199,65,73],[1305,1213,65,73],[994,1205,65,73],[1573,1260,65,73],[1640,1262,65,73],[1707,1262,65,73],[201,1214,65,73],[1061,1207,65,73],[0,1217,65,73],[917,1208,65,73],[1238,1213,65,73],[820,1246,65,73],[67,1217,65,73],[1372,1213,65,73],[1506,1260,65,73],[552,1246,65,73],[134,1214,65,73],[268,1214,65,73],[402,1214,65,73],[1128,1221,65,73],[619,1246,65,73],[686,1246,65,73],[1212,1012,100,59],[923,0,166,144],[992,146,166,144],[336,402,166,144],[504,402,166,144],[0,402,166,144],[1160,146,166,144],[1328,146,166,144],[1091,0,166,144],[672,438,166,144],[168,402,166,144],[1344,292,166,144],[1496,146,166,144],[168,256,166,144],[1512,292,166,144],[672,292,166,144],[1259,0,166,144],[1680,292,166,144],[336,256,166,144],[1832,146,166,144],[1848,292,166,144],[488,110,166,144],[656,110,166,144],[840,438,166,144],[1664,146,166,144],[320,110,166,144],[0,256,166,144],[504,256,166,144],[1427,0,166,144],[840,292,166,144],[1008,292,166,144],[1176,292,166,144],[824,146,166,144],[1595,0,166,144],[1008,438,166,144],[1176,438,166,144],[1763,0,166,144],[1344,438,166,144],[152,110,166,144],[840,584,166,144],[1680,438,166,144],[1848,584,166,144],[504,548,166,144],[336,548,166,144],[1344,584,166,144],[1512,584,166,144],[1512,438,166,144],[1008,584,166,144],[1176,584,166,144],[672,584,166,144],[1680,584,166,144],[1848,438,166,144],[168,548,166,144],[0,548,166,144],[0,0,150,186],[0,694,166,144],[168,694,166,144],[336,694,166,144],[840,876,166,144],[336,840,166,144],[1176,730,166,144],[672,876,166,144],[840,730,166,144],[1512,730,166,144],[1344,730,166,144],[1680,730,166,144],[504,694,166,144],[672,730,166,144],[504,840,166,144],[1848,730,166,144],[0,840,166,144],[168,840,166,144],[1008,730,166,144]]}
+		{name:"恢复_恢复_植物大战僵尸_atlas_", frames: [[0,0,1400,600],[566,602,412,483],[1050,1482,348,218],[1680,660,348,218],[700,1482,348,218],[0,1732,348,218],[700,1702,348,218],[1400,1702,348,218],[1400,1482,348,218],[350,1747,348,218],[1050,1702,348,218],[350,1527,348,218],[1680,880,348,218],[0,1292,348,218],[0,1512,348,218],[1400,1262,348,218],[1330,1042,348,218],[980,1042,348,218],[1330,602,348,218],[1330,822,348,218],[1402,0,348,218],[980,822,348,218],[350,1307,348,218],[0,1072,348,218],[1680,440,348,218],[350,1087,348,218],[980,602,348,218],[1402,220,348,218],[1050,1262,348,218],[700,1262,348,218],[0,602,564,468]]},
+		{name:"恢复_恢复_植物大战僵尸_atlas_2", frames: [[1050,220,348,218],[0,1100,348,218],[1050,0,348,218],[0,660,348,218],[700,220,348,218],[0,880,348,218],[700,0,348,218],[1400,0,348,218],[0,1540,348,218],[0,220,348,218],[0,0,348,218],[350,0,348,218],[350,220,348,218],[0,1760,348,218],[1400,220,348,218],[0,440,348,218],[350,440,348,218],[0,1320,348,218],[700,440,348,218],[1050,440,348,218],[1400,440,348,218],[350,660,348,218],[1050,660,348,218],[700,1760,348,218],[350,1100,348,218],[350,880,348,218],[700,1100,348,218],[350,1320,348,218],[350,1540,348,218],[1050,1100,348,218],[1050,1320,348,218],[350,1760,348,218],[700,660,348,218],[1400,1320,348,218],[1400,1540,348,218],[1400,1760,348,218],[1400,660,348,218],[700,880,348,218],[1050,880,348,218],[1400,880,348,218],[1050,1540,348,218],[700,1320,348,218],[700,1540,348,218],[1400,1100,348,218],[1050,1760,348,218]]},
+		{name:"恢复_恢复_植物大战僵尸_atlas_3", frames: [[350,1548,216,164],[350,386,216,164],[350,1714,216,164],[350,552,216,164],[350,1880,216,164],[350,718,216,164],[568,220,216,164],[350,1050,216,164],[350,884,216,164],[350,1216,216,164],[350,1382,216,164],[350,220,216,164],[700,0,216,164],[568,386,216,164],[568,884,216,164],[568,552,216,164],[568,718,216,164],[568,1050,216,164],[568,1216,216,164],[786,664,216,164],[786,498,216,164],[1222,332,216,164],[786,1826,216,164],[786,996,216,164],[568,1382,216,164],[1004,996,216,164],[568,1714,216,164],[786,1162,216,164],[1004,498,216,164],[786,332,216,164],[1004,166,216,164],[1136,0,216,164],[568,1548,216,164],[1004,664,216,164],[1004,1162,216,164],[1004,1660,216,164],[786,830,216,164],[786,1328,216,164],[1004,1826,216,164],[1004,830,216,164],[918,0,216,164],[1004,1328,216,164],[568,1880,216,164],[786,1494,216,164],[1004,332,216,164],[1004,1494,216,164],[786,1660,216,164],[1222,166,216,164],[1354,0,216,164],[786,166,216,164],[1658,830,216,164],[1222,1660,216,164],[1222,1328,216,164],[1222,1494,216,164],[1658,498,216,164],[1440,1494,216,164],[1222,996,216,164],[1440,1162,216,164],[1440,1328,216,164],[1222,664,216,164],[1222,1826,216,164],[1440,498,216,164],[1440,166,216,164],[1440,1660,216,164],[1658,332,216,164],[1658,664,216,164],[1222,830,216,164],[1440,830,216,164],[1790,0,216,164],[1222,498,216,164],[1572,0,216,164],[1440,664,216,164],[1658,996,216,164],[1440,1826,216,164],[1440,332,216,164],[1658,1162,216,164],[1440,996,216,164],[1658,166,216,164],[1658,1328,216,164],[1222,1162,216,164],[0,1540,348,218],[0,660,348,218],[0,880,348,218],[0,1100,348,218],[0,1320,348,218],[0,1760,348,218],[350,0,348,218],[0,440,348,218],[0,0,348,218],[0,220,348,218],[1876,1294,150,186],[1876,1106,150,186],[1810,1682,150,186],[1876,542,150,186],[1658,1494,150,186],[1658,1682,150,186],[1810,1494,150,186],[1876,730,150,186],[1876,166,150,186],[1876,918,150,186],[1876,354,150,186]]},
+		{name:"恢复_恢复_植物大战僵尸_atlas_4", frames: [[1008,876,204,117],[1382,876,182,104],[1774,1262,71,57],[1992,1036,56,34],[1314,1012,52,46],[560,986,100,60],[223,1066,71,71],[296,1066,71,71],[1037,1057,71,71],[369,1066,71,71],[150,1066,71,71],[1185,1073,71,71],[854,1098,71,71],[708,1098,71,71],[1612,1112,71,71],[635,1098,71,71],[781,1098,71,71],[1539,1112,71,71],[442,1066,71,71],[1008,995,100,60],[1847,1262,86,36],[666,0,255,108],[409,0,255,108],[152,0,255,108],[824,110,76,34],[1806,956,78,78],[1931,0,78,78],[1566,956,78,78],[1726,876,78,78],[1646,956,78,78],[1806,876,78,78],[1966,876,78,78],[1726,956,78,78],[1886,956,78,78],[1886,876,78,78],[1966,956,78,78],[1382,982,78,78],[1462,982,78,78],[1566,876,78,78],[0,986,78,78],[1646,876,78,78],[480,986,78,78],[400,986,78,78],[240,986,78,78],[80,986,78,78],[320,986,78,78],[160,986,78,78],[672,256,123,34],[1931,80,100,60],[812,1022,73,74],[662,1022,73,74],[737,1022,73,74],[75,1066,73,74],[887,1022,73,74],[1542,1036,73,74],[0,1066,73,74],[1617,1036,73,74],[1692,1036,73,74],[1767,1036,73,74],[1110,1056,73,74],[1842,1036,73,74],[1917,1036,73,74],[560,1048,73,74],[962,1057,73,74],[1314,1062,73,74],[1389,1062,73,74],[1464,1062,73,74],[0,188,100,60],[1214,876,166,134],[1110,995,100,59],[1752,1112,65,73],[1660,1187,65,73],[67,1142,65,73],[582,1171,65,73],[1037,1130,65,73],[1685,1112,65,73],[1392,1138,65,73],[1727,1187,65,73],[1459,1138,65,73],[1819,1112,65,73],[351,1139,65,73],[1953,1112,65,73],[150,1139,65,73],[217,1139,65,73],[1861,1187,65,73],[515,1124,65,73],[1104,1132,65,73],[1593,1185,65,73],[927,1133,65,73],[1258,1138,65,73],[1526,1185,65,73],[1794,1187,65,73],[850,1171,65,73],[1325,1138,65,73],[284,1139,65,73],[418,1139,65,73],[1928,1187,65,73],[1886,1112,65,73],[1238,1213,65,73],[783,1171,65,73],[485,1199,65,73],[1171,1146,65,73],[1305,1213,65,73],[994,1205,65,73],[1061,1207,65,73],[649,1171,65,73],[0,1142,65,73],[1506,1260,65,73],[716,1171,65,73],[201,1214,65,73],[552,1246,65,73],[1372,1213,65,73],[917,1208,65,73],[1439,1213,65,73],[134,1214,65,73],[268,1214,65,73],[1707,1262,65,73],[335,1214,65,73],[402,1214,65,73],[0,1217,65,73],[67,1217,65,73],[686,1246,65,73],[1128,1221,65,73],[820,1246,65,73],[619,1246,65,73],[753,1246,65,73],[1573,1260,65,73],[1640,1262,65,73],[1212,1012,100,59],[1848,584,166,144],[672,292,166,144],[1427,0,166,144],[1496,146,166,144],[336,256,166,144],[168,256,166,144],[488,110,166,144],[1832,146,166,144],[1763,0,166,144],[1664,146,166,144],[840,292,166,144],[152,110,166,144],[1176,292,166,144],[1008,292,166,144],[1160,146,166,144],[1328,146,166,144],[320,110,166,144],[656,110,166,144],[1848,292,166,144],[1344,292,166,144],[1680,292,166,144],[824,146,166,144],[1595,0,166,144],[1259,0,166,144],[168,402,166,144],[504,256,166,144],[1512,292,166,144],[992,146,166,144],[0,256,166,144],[0,402,166,144],[336,402,166,144],[923,0,166,144],[504,402,166,144],[1091,0,166,144],[672,584,166,144],[1344,584,166,144],[1680,438,166,144],[1176,438,166,144],[336,548,166,144],[504,548,166,144],[672,438,166,144],[168,548,166,144],[840,584,166,144],[0,548,166,144],[1680,584,166,144],[840,438,166,144],[1512,584,166,144],[1344,438,166,144],[1008,584,166,144],[1176,584,166,144],[1008,438,166,144],[1512,438,166,144],[1848,438,166,144],[0,0,150,186],[168,694,166,144],[672,730,166,144],[336,694,166,144],[168,840,166,144],[504,840,166,144],[1512,730,166,144],[504,694,166,144],[840,730,166,144],[1848,730,166,144],[672,876,166,144],[1008,730,166,144],[1176,730,166,144],[1344,730,166,144],[1680,730,166,144],[0,840,166,144],[336,840,166,144],[0,694,166,144],[840,876,166,144]]}
 ];
 
 
@@ -736,85 +736,85 @@ lib.ssMetadata = [
 
 
 (lib.PoleVaultingZombie_0 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(80);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_1 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_2 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(4);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_3 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_4 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_5 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(85);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_6 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(8);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombie_7 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombie_8 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombie_9 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PoleVaultingZombieAttack_0 = function() {
+(lib.PoleVaultingZombie_8 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombie_9 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PoleVaultingZombieAttack_1 = function() {
+(lib.PoleVaultingZombieAttack_0 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
 	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieAttack_1 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -834,365 +834,365 @@ lib.ssMetadata = [
 
 
 (lib.PoleVaultingZombieAttack_12 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(5);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_13 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(6);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_2 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(7);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_3 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(8);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_4 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(9);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_5 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(10);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_6 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(11);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_7 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(12);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_8 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(13);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieAttack_9 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(14);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_0 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(15);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_1 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(16);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_2 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(17);
+	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_3 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(18);
+	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_4 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(19);
+	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_5 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(20);
+	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_6 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(21);
+	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_7 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(22);
+	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieDie_8 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(23);
+	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieHead_0 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(24);
+	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.PoleVaultingZombieHead_1 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieHead_2 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieHead_3 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieHead_4 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieHead_5 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieHead_6 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieHead_7 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_0 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(32);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_1 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(33);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_2 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(34);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_3 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(35);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_4 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(36);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_5 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(37);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump2_6 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(38);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_0 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(80);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_1 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(81);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_2 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_3 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(40);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_4 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_5 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(42);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_6 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(82);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_7 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(43);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_8 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
-	this.gotoAndStop(44);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieJump_9 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(83);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_0 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(84);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_1 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(85);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_10 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(86);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_11 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(87);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_12 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(88);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_13 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(89);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.PoleVaultingZombieWalk_14 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.PoleVaultingZombieWalk_15 = function() {
+(lib.PoleVaultingZombieHead_2 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieHead_3 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_"]);
 	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieHead_4 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieHead_5 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieHead_6 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieHead_7 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(87);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_0 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_1 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(88);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_2 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(89);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_3 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_4 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_5 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump2_6 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_0 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_1 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_2 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_3 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_4 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_5 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_6 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_7 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_8 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(35);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieJump_9 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_0 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_1 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_10 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_11 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_12 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_13 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_14 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.PoleVaultingZombieWalk_15 = function() {
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_2"]);
+	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -2479,43 +2479,43 @@ lib.ssMetadata = [
 
 
 (lib.ZombieHead_3 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(95);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_4"]);
+	this.gotoAndStop(182);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ZombieHead_4 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(96);
+	this.gotoAndStop(95);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ZombieHead_5 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(97);
+	this.gotoAndStop(96);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ZombieHead_6 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(98);
+	this.gotoAndStop(97);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ZombieHead_7 = function() {
 	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
-	this.gotoAndStop(99);
+	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.ZombieHead_8 = function() {
-	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_4"]);
-	this.gotoAndStop(182);
+	this.initialize(ss["恢复_恢复_植物大战僵尸_atlas_3"]);
+	this.gotoAndStop(99);
 }).prototype = p = new cjs.Sprite();
 
 
@@ -3811,6 +3811,17 @@ p.nominalBounds = new cjs.Rectangle(0,0,166,144);
 (lib.Zombi = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// timeline functions:
+	this.frame_98 = function() {
+		this.gotoAndPlay(1)
+	}
+	this.frame_138 = function() {
+		this.gotoAndPlay(100)
+	}
+
+	// actions tween:
+	this.timeline.addTween(cjs.Tween.get(this).wait(98).call(this.frame_98).wait(40).call(this.frame_138).wait(3));
+
 	// 图层_1
 	this.instance = new lib.Zombie_0();
 	this.instance.parent = this;
@@ -3878,7 +3889,70 @@ p.nominalBounds = new cjs.Rectangle(0,0,166,144);
 	this.instance_21 = new lib.Zombie_21();
 	this.instance_21.parent = this;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},3).to({state:[{t:this.instance_2}]},6).to({state:[{t:this.instance_3}]},3).to({state:[{t:this.instance_4}]},6).to({state:[{t:this.instance_5}]},3).to({state:[{t:this.instance_6}]},6).to({state:[{t:this.instance_7}]},3).to({state:[{t:this.instance_8}]},6).to({state:[{t:this.instance_9}]},3).to({state:[{t:this.instance_10}]},6).to({state:[{t:this.instance_11}]},3).to({state:[{t:this.instance_12}]},6).to({state:[{t:this.instance_13}]},3).to({state:[{t:this.instance_14}]},6).to({state:[{t:this.instance_15}]},3).to({state:[{t:this.instance_16}]},6).to({state:[{t:this.instance_17}]},3).to({state:[{t:this.instance_18}]},6).to({state:[{t:this.instance_19}]},3).to({state:[{t:this.instance_20}]},6).to({state:[{t:this.instance_21}]},3).wait(6));
+	this.instance_22 = new lib.ZombieAttack_0();
+	this.instance_22.parent = this;
+
+	this.instance_23 = new lib.ZombieAttack_1();
+	this.instance_23.parent = this;
+
+	this.instance_24 = new lib.ZombieAttack_2();
+	this.instance_24.parent = this;
+
+	this.instance_25 = new lib.ZombieAttack_3();
+	this.instance_25.parent = this;
+
+	this.instance_26 = new lib.ZombieAttack_4();
+	this.instance_26.parent = this;
+
+	this.instance_27 = new lib.ZombieAttack_5();
+	this.instance_27.parent = this;
+
+	this.instance_28 = new lib.ZombieAttack_6();
+	this.instance_28.parent = this;
+
+	this.instance_29 = new lib.ZombieAttack_7();
+	this.instance_29.parent = this;
+
+	this.instance_30 = new lib.ZombieAttack_8();
+	this.instance_30.parent = this;
+
+	this.instance_31 = new lib.ZombieAttack_9();
+	this.instance_31.parent = this;
+
+	this.instance_32 = new lib.ZombieAttack_10();
+	this.instance_32.parent = this;
+
+	this.instance_33 = new lib.ZombieAttack_11();
+	this.instance_33.parent = this;
+
+	this.instance_34 = new lib.ZombieAttack_12();
+	this.instance_34.parent = this;
+
+	this.instance_35 = new lib.ZombieAttack_13();
+	this.instance_35.parent = this;
+
+	this.instance_36 = new lib.ZombieAttack_14();
+	this.instance_36.parent = this;
+
+	this.instance_37 = new lib.ZombieAttack_15();
+	this.instance_37.parent = this;
+
+	this.instance_38 = new lib.ZombieAttack_16();
+	this.instance_38.parent = this;
+
+	this.instance_39 = new lib.ZombieAttack_17();
+	this.instance_39.parent = this;
+
+	this.instance_40 = new lib.ZombieAttack_18();
+	this.instance_40.parent = this;
+
+	this.instance_41 = new lib.ZombieAttack_19();
+	this.instance_41.parent = this;
+
+	this.instance_42 = new lib.ZombieAttack_20();
+	this.instance_42.parent = this;
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance_1}]},3).to({state:[{t:this.instance_2}]},6).to({state:[{t:this.instance_3}]},3).to({state:[{t:this.instance_4}]},6).to({state:[{t:this.instance_5}]},3).to({state:[{t:this.instance_6}]},6).to({state:[{t:this.instance_7}]},3).to({state:[{t:this.instance_8}]},6).to({state:[{t:this.instance_9}]},3).to({state:[{t:this.instance_10}]},6).to({state:[{t:this.instance_11}]},3).to({state:[{t:this.instance_12}]},6).to({state:[{t:this.instance_13}]},3).to({state:[{t:this.instance_14}]},6).to({state:[{t:this.instance_15}]},3).to({state:[{t:this.instance_16}]},6).to({state:[{t:this.instance_17}]},3).to({state:[{t:this.instance_18}]},6).to({state:[{t:this.instance_19}]},3).to({state:[{t:this.instance_20}]},6).to({state:[{t:this.instance_21}]},3).to({state:[{t:this.instance_21}]},5).to({state:[{t:this.instance_22}]},1).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},2).to({state:[{t:this.instance_25}]},2).to({state:[{t:this.instance_26}]},2).to({state:[{t:this.instance_27}]},2).to({state:[{t:this.instance_28}]},2).to({state:[{t:this.instance_29}]},2).to({state:[{t:this.instance_30}]},2).to({state:[{t:this.instance_31}]},2).to({state:[{t:this.instance_32}]},2).to({state:[{t:this.instance_33}]},2).to({state:[{t:this.instance_34}]},2).to({state:[{t:this.instance_35}]},2).to({state:[{t:this.instance_36}]},2).to({state:[{t:this.instance_37}]},2).to({state:[{t:this.instance_38}]},2).to({state:[{t:this.instance_39}]},2).to({state:[{t:this.instance_40}]},2).to({state:[{t:this.instance_41}]},2).to({state:[{t:this.instance_42}]},2).wait(3));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(0,0,166,144);
@@ -4667,13 +4741,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 		var SunFlower = new lib.SunFlower(); //太阳花
 		var SunBack = new lib.SunBack(); //阳光盒子
 		
-		var SunSum = 1000;
+		var SunSum = 200;
 		var SunSumText = new cjs.Text(SunSum, "20px Times", "#000000"); //阳光的数量
 		var plantsA = new Array(); //植物的数组
 		var zombisA = new Array(); //僵尸的数组
 		var CGA = new Array(); //僵尸的数组
 		var PaperA = new Array(); //僵尸的数组
-		
 		var gridHeight = 100;
 		var gridWidth = 83;
 		var borderTop = 85;
@@ -4778,7 +4851,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 				show();
 				updateSunSum();
 				setInterval(SunFall, 10000);
-				setInterval(NewZombi,20000);
+				setInterval(NewZombi,15000);
 				AddPlant();
 				stage.addEventListener("tick", onEnterFrm);
 			}
@@ -4819,7 +4892,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 			stage.addChild(ZombiContainer);
 			updateSunSum(); //更新阳光
 			SunBack.x = 250; //位置罢了
-			SunSumText.x = 330; //位置罢了
+			SunSumText.x = 320; //位置罢了
 			SunSumText.y = 10; //位置罢了
 			
 		}
@@ -4832,10 +4905,11 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 			zom.hp=270;//僵尸血量270
 			//zom.power=3.34;
 			zom.power=3.34;
-			//zom.speed=0.5866;//僵尸移动速度
-			zom.speed=5;//僵尸移动速度
+			zom.speed=0.5866;//僵尸移动速度
+			//zom.speed=5;//僵尸移动速度
 			zom.name = "zom" + ZombiSum;
 			zom.x = xx;
+			zom.eat=0;
 			zom.y = zom.zombiRow * gridHeight+borderTop-60; //y的位置需要自己改！
 			//参考的代码有误，应该先位置再僵尸!
 			zombisA[zom.zombiRow].push(zom.name);
@@ -4907,7 +4981,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 		}
 		function SunClick(event) { //阳光的点击
 			var a = event.target;
-			SunSum += 50;
+			SunSum += 25;
 			a.click=1;
 			updateSunSum();
 			a.removeEventListener("click", SunClick);
@@ -5021,7 +5095,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 					setTimeout(function(){
 						stage.removeChild(PeashooterG);
 						pea.alpha=1;
-						},30000);
+						},10000);
 				OverlayContainer.removeChild(Choose);
 				OverlayContainer.removeChild(MovePlant);
 				plantsA[pRow][pCol] = 1; //此处有人
@@ -5069,7 +5143,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 				var p = new lib.Peashooter();
 				
 				p.name = "plant" + pRow + pCol;
-				p.fire = 42; //豌豆射手攻击速度
+				p.fire = 126; //豌豆射手攻击速度
 				p.recharge = 0; //对标的速率
 				p.power=20;//豌豆射手攻击数值
 				p.pRow = pRow;
@@ -5091,7 +5165,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 					setTimeout(function(){
 						stage.removeChild(PeashooterG);
 						pea.alpha=1;
-						},7500);
+						},1000);
 				plantsA[pRow][pCol] = 1; //此处有人
 			}
 		}
@@ -5390,24 +5464,19 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 				var eat=new lib.ZombiAttack();
 				if (zombieColumn<0||zombieColumn>8||plantsA[movingZombie.zombiRow][zombieColumn]==0)
 				{
-					if(movingZombie.alpha==0&&plantsA[movingZombie.zombiRow][zombieColumn]==0)
+					if(movingZombie.eat)
 					{
-						stage.removeChild(movingZombie.eat);
-						//eat.alpha=0;
-						movingZombie.alpha=1;
+						movingZombie.gotoAndPlay(1);
+						movingZombie.eat=0;
 					}
+					 
 					 movingZombie.x-=movingZombie.speed;// moves each zombie left by 1/2 pixels
 				 }
 				 else
 				 {
-					if(movingZombie.alpha==1)
-					{
-						movingZombie.alpha=0;
-						movingZombie.eat=eat;
-						stage.addChild(eat);
-						eat.x=movingZombie.x;
-						eat.y=movingZombie.y;
-					}
+					 if(!movingZombie.eat)
+					 movingZombie.gotoAndPlay(100);
+					movingZombie.eat=1; 
 					var attackedPlant;
 					var flag=0;
 					if(PlantContainer.getChildByName("plant"+movingZombie.zombiRow+zombieColumn))
@@ -5741,7 +5810,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,65,73);
 				lose.y=50;
 		        }		
 			}
-			if(ccount==30){
+			if(ccount==10){
 				stage.removeEventListener("tick", onEnterFrm);
 				ccount++;
 				var win=new lib.win();
@@ -5824,10 +5893,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/恢复_恢复_植物大战僵尸_atlas_.png?1641104185748", id:"恢复_恢复_植物大战僵尸_atlas_"},
-		{src:"images/恢复_恢复_植物大战僵尸_atlas_2.png?1641104185749", id:"恢复_恢复_植物大战僵尸_atlas_2"},
-		{src:"images/恢复_恢复_植物大战僵尸_atlas_3.png?1641104185751", id:"恢复_恢复_植物大战僵尸_atlas_3"},
-		{src:"images/恢复_恢复_植物大战僵尸_atlas_4.png?1641104185755", id:"恢复_恢复_植物大战僵尸_atlas_4"}
+		{src:"images/恢复_恢复_植物大战僵尸_atlas_.png?1641569716208", id:"恢复_恢复_植物大战僵尸_atlas_"},
+		{src:"images/恢复_恢复_植物大战僵尸_atlas_2.png?1641569716209", id:"恢复_恢复_植物大战僵尸_atlas_2"},
+		{src:"images/恢复_恢复_植物大战僵尸_atlas_3.png?1641569716211", id:"恢复_恢复_植物大战僵尸_atlas_3"},
+		{src:"images/恢复_恢复_植物大战僵尸_atlas_4.png?1641569716214", id:"恢复_恢复_植物大战僵尸_atlas_4"}
 	],
 	preloads: []
 };
